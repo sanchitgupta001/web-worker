@@ -1,0 +1,14 @@
+.statsGridContainer {
+  display: flex;
+  padding: 0 10%;
+  flex-wrap: wrap;
+
+  div:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+
+  div:nth-child(3n + 3) {
+    margin-right: 0;
+    width: calc(100% / 3 - 1rem);
+  }
+}

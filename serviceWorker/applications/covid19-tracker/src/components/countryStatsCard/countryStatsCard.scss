@@ -1,0 +1,8 @@
+.card {
+  width: calc(100% / 3 - 2 * 1rem);
+  margin: 0 1rem;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
